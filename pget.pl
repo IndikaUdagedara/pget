@@ -1,9 +1,9 @@
 #!/usr/bin/perl
 
 ########################################################################
-# (c) 2008 Indika Bandara Udagedara
-# indikabandara19@gmail.com
-# http://indikabandara19.blogspot.com
+# (c) 2008 Indika Udagedara
+# indika.udagedara@gmail.com
+# http://indikaudagedara.blogspot.com
 # 
 # ----------
 # LICENCE
@@ -24,9 +24,6 @@
 # Please read the verbose README provided kindly by Rahadian Pratama
 # if u r on cygwin and think this documentation is not enough :)
 # 
-# The newest version of pget is available at  
-#	http://indikabandara.no-ip.com/~indika/pget
-#
 # ----------
 # USAGE
 # ----------
