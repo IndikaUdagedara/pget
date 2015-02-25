@@ -1,0 +1,112 @@
+
+Below documentation(for cygwin) for pget.pl is provided by Rahadian Pratama
+
+
+--------------------
+README
+--------------------
+
+instruction for all of you guys wanted to using Indika's script with cygwin
+
+maybe i's a long guide, but not hard. just follow the guide carefully. i write this for people
+who're confused with cygwin. i'm still newbie to cygwin, it just that i'm success using this program
+and want to share with you. sorry for my bad english, enjoy using cygwin :)
+
+(please read the usage and readme in the script, u can using notepad to open it)
+
+i'll divide guide into two part, install cygwin + setup other thing and download files
+
+part one. install cygwin + setup other thing
+
+1. download the script file (of course the important thing :) in 
+	http://indikabandara.no-ip.com/~indika/pget
+
+2. download cygwin for windows in
+	http://www.cygwin.com/setup.exe
+
+3. run the setup.exe to install cygwin, make sure you have working internet connection and
+   can browse without problem. click next, you'll have three option:
+	- install from internet 		(recommended)
+	- download witthout installing
+	- install from local directory
+
+   choose "install from internet",click next three time and another option to choose
+	- direct connection
+	- use IE5 settings
+	- use HTTP/FTP proxy
+
+4. choose option that you use in your college or office, me use HTTP/FTP proxy. if you
+   use proxy like me, fill the proxy host and port. if you doesn't know what proxy is 
+   ask your friend or someone who know about this. click next again.
+
+5. if asked about proxy user id and password, fill it with your user id and password for
+   browsing (just keep enter if after fill user & pass the windows keep appear, be carefull not to
+   click cancel).
+
+6. if not asked, then you'll be asked download site. choose download site that is nearest
+   to you so you can download at high speed. just choose one of the list if you doesn't know
+   which one is nearest to you. click next.
+
+7. now you'll be asked about 
+package to install, choose "perl" (without quote). click on the
+   circle shape symbol, then the "default" will change to "install" (don't expand perl).
+   after perl, you must install "curl", it is in "Net" category, expand Net first then find curl. 
+   do the same thing with perl, click on the circle shape, then "keep" will change to some number (version of the program)
+   choose "curl" and "curl-devel" to install. click next.
+
+8. then the download progress will appear. check create icon if you want. click finish.
+   cygwin installation end here, now we will setup other thing.
+
+9. remember pget.pl script that we download first? place it in drive C/D/E up to you but i
+   suggest to place it in one folder, so it'll look like this C:/document/ or D:/document/.
+   this folder will be the place your downloaded files stored.
+
+10. open pget.pl with notepad or wordpad, wordpad usually look better.
+
+11. there's some parameter you must change in CONFIGURATIONS section, but the important thing 
+    is change the proxy setting if you're using one (i think squid use proxy). replace proxy 
+    with the one you use. if using user id and password, replace them too in the script.
+
+12. save the script and now start cygwin (from start menu or c:/cygwin/Cygwin.bat). you'll see
+    command prompt window (terminal) appear. now type "curl" (without quote). if terminal reply
+    with "curl: try 'curl --help' blablabla...." it means you install curl correctly. if not, 
+    go back to step 7.
+
+13. now browse the pget.pl script folder. i put it in c:/document/, so the command will be 
+    like this:
+	cd c:			<enter>
+	cd document		<enter>
+	chmod +x pget.pl	<enter>		(to make pget.pl runnable)
+
+    ok, that's it for part one. take a break and prepare for part two :)
+    oh, and don't close cygwin, just minimize it.
+
+
+Part two. download files
+
+14. i'll explain how to download mp3 files now, for other file type, just change extension *.mp3
+    to the one you desired.
+
+15. you must have one file mp3 that already in your PC, it can be whatever song, the important
+    thing the file is mp3. place mp3 file in pget.pl folder (c:/document/ in my case). my mp3 file
+    is song.mp3, now type this in cygwin:
+	./pget.pl -i song.mp3	<enter>
+    if you don't do this, you can't download mp3 files.
+
+16. now you must know complete URL of mp3 files you want to download, example i want to download abc.mp3
+    and the complete URL is http://baba.com/files/download/abc.mp3, then type this:
+	./pget.pl -g http://baba.com/files/download/abc.mp3
+    wait download process until finished and browse to pget.pl folder in c:/document/, your mp3 files is
+    stored there. change the URL above with the one you want to download mp3 file.
+
+17. finished!! that's it, not hard isn't it? if you want to download other file, example rar archive, then
+    do again from step 15, the only different part is *.rar file not *.mp3.
+
+
+
+if you have problem about this guide, feel free to ask me at rahadianfreedom@gmail.com
+but if you have question about the script, even i still dummy about that, ask bro indika 
+about the script at indikabandara19@gmail.com or in his blog at http://indikabandara19.blogspot.com
+all credit goes to him.
+
+at last, have a nice try :)
