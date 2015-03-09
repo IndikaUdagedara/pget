@@ -17,8 +17,7 @@ i'll divide guide into two part, install cygwin + setup other thing and download
 
 part one. install cygwin + setup other thing
 
-1. download the script file (of course the important thing :) in 
-	http://indikabandara.no-ip.com/~indika/pget
+1. download the script file (of course the important thing :)
 
 2. download cygwin for windows in
 	http://www.cygwin.com/setup.exe
@@ -53,7 +52,8 @@ package to install, choose "perl" (without quote). click on the
    do the same thing with perl, click on the circle shape, then "keep" will change to some number (version of the program)
    choose "curl" and "curl-devel" to install. click next.
 
-8. then the download progress will appear. check create icon if you want. click finish.
+8. then the download progress will appear. check create icon if you want. click finish
+.
    cygwin installation end here, now we will setup other thing.
 
 9. remember pget.pl script that we download first? place it in drive C/D/E up to you but i
