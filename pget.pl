@@ -5,37 +5,7 @@
 # indika.udagedara@gmail.com
 # http://indikaudagedara.blogspot.com
 # 
-# ----------
-# LICENCE
-# ----------
-# This work is protected under GNU GPL
-# It simply says 
-# "	you are hereby granted to do whatever you want with this
-# 	except claiming you wrote this."
-#
-#
-# ----------
-# README
-# ----------
-# A simple tool to download via http proxies which enforce a download
-# size limit. Requires curl.
-# This is NOT a hack. This uses the absolutely legal HTTP/1.1 spec
-# Tested only for squid-2.6. Only squids will work with this(i think)
-# Please read the verbose README provided kindly by Rahadian Pratama
-# if u r on cygwin and think this documentation is not enough :)
-# 
-# ----------
-# USAGE
-# ----------
-# + 	Edit below configurations(mainly proxy)
-# + 	First run with -i <file> giving a sample file of same type that
-# 	you are going to download. Doing this once is enough.
-#	eg. to download '.tar' files first run with
-#		pget -i my.tar ('my.tar' should be a real file)
-# +	Run with 
-#		pget -g <URL>
-#
-#
+# This project is distributed under GNU GPL
 ########################################################################
 
 
